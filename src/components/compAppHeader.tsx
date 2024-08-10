@@ -2,7 +2,7 @@ import moment from "moment";
 import Image from "next/image";
 import 'moment/locale/vi'
 export default function CompAppHeader() {
-  return <Header className="container mx-auto py-2">
+  return <header className="container mx-auto py-2">
 
     <div className="flex flex-row justify-center items-center">
       <Image
@@ -13,15 +13,7 @@ export default function CompAppHeader() {
         height={80}
         priority
       />
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16597066183" />
-
-      <Script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag()
-      	{dataLayer.push(arguments);}
-        	gtag('js', new Date());
-        	gtag('config', 'AW-16597066183');
-        />
+      
     </div>
-  />
+  </header>
 }
