@@ -2,7 +2,7 @@ import moment from "moment";
 import Image from "next/image";
 import 'moment/locale/vi'
 export default function CompAppHeader() {
-  return <header className="container mx-auto py-2">
+  return <Header className="container mx-auto py-2">
 
     <div className="flex flex-row justify-center items-center">
       <Image
@@ -23,5 +23,5 @@ export default function CompAppHeader() {
         	gtag('config', 'AW-16597066183');
         />
     </div>
-  </header>
+  />
 }
