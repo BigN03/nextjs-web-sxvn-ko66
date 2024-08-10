@@ -3,7 +3,7 @@ import Image from "next/image";
 import 'moment/locale/vi'
 export default function CompAppHeader() {
   return <header className="container mx-auto py-2">
-    </div>
+   
     {/* <!-- Google tag (gtag.js) --> */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16597066183">
       </script>
@@ -23,5 +23,6 @@ export default function CompAppHeader() {
         height={80}
         priority
       />
+       </div>
   </header>
 }
