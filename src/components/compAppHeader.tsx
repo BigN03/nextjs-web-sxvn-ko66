@@ -16,13 +16,14 @@ export default function CompAppHeader() {
         priority
       />
     </div>
-  </header>
-  <Script src="https://www.googletagmanager.com/gtag/js?id=AW-16597066183" />
-  <Script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag()
-  	{dataLayer.push(arguments);}
-    	gtag('js', new Date());
-    	gtag('config', 'AW-16597066183');
-    />
+      <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16597066183">
+        </script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'AW-16597066183');
+        </script>
 }
