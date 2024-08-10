@@ -6,16 +6,6 @@ export default function Home() {
   let { date } = useContext(PageContext);
   return (
     <>
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16597066183">
-      </script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'AW-16597066183');
-      </script>
       <div className="w-full text-center rounded shadow-lg bg-white flex flex-row items-center justify-center mb-2 py-2">
         <span className="font-bold">VESO KO66 - Kết quả xổ số 3 miền - KQXS Hôm nay</span>
       </div>
