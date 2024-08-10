@@ -1,6 +1,9 @@
 import moment from "moment";
 import Image from "next/image";
 import 'moment/locale/vi'
+import { Html, Head, Main, NextScript } from 'next/document'
+import Script from 'next/script'
+
 export default function CompAppHeader() {
   return <header className="container mx-auto py-2">
 
@@ -13,7 +16,15 @@ export default function CompAppHeader() {
         height={80}
         priority
       />
-      
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16597066183" />
+
+      <Script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag()
+      	{dataLayer.push(arguments);}
+        	gtag('js', new Date());
+        	gtag('config', 'AW-16597066183');
+        />
     </div>
   </header>
 }
