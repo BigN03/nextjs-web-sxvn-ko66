@@ -5,7 +5,7 @@ import Script from 'next/script'
 import 'moment/locale/vi'
 
 export default function CompAppHeader() {
-  return <Header className="container mx-auto py-2">
+  return <header className="container mx-auto py-2">
 
     <div className="flex flex-row justify-center items-center">
       <Image
@@ -18,5 +18,5 @@ export default function CompAppHeader() {
       />
       
     </div>
-  />
+  </header>
 }
