@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <div className="w-full text-center rounded shadow-lg bg-white flex flex-row items-center justify-center mb-2 py-2">
-        <span className="font-bold">VESO KO66 - Kết quả xổ số 3 miền - KQXS Hôm nay</span>
+        <span className="font-bold">GOLDMAN XỔ SỐ- Kết quả xổ số 3 miền - KQXS Hôm nay</span>
       </div>
       {/* <Comp.CompAppLocation /> */}
       <Comp.CompBody.BodyLiveSoXoMienBac locate="mien-bac" />
