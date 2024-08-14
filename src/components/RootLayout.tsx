@@ -21,7 +21,9 @@ export default function MainLayout({
           className="absolute top-0 left-0 w-full h-full bg-repeat-y bg-center bg-cover -z-20 opacity-100"></div>
         <div
           style={{ backgroundImage: `url('/assets/bg-ve-so.png')` }}
-          className="absolute top-0 left-0 w-full h-full bg-repeat bg-center bg-contain -z-10 opacity-50"></div>
+          className="absolute w-full h-full bg-contain -z-5 opacity-50">
+            
+          </div>
         <Comp.CompAppNav />
         <div className="flex flex-row justify-center items-center max-w-[1280px] w-11/12 mx-auto relative pt-4">
           <div className="container mx-auto rounded max-w-[1200px]" >
