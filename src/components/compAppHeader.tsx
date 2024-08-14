@@ -10,7 +10,7 @@ export default function CompAppHeader() {
     <div className="flex flex-row justify-center items-center">
       <Image
         className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-        src="/logo.svg"
+        src="/GMVS_new.svg"
         alt="Next.js Logo"
         width={258}
         height={80}

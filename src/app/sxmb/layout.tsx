@@ -3,7 +3,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Sổ Xố Miền Bắc",
   description: "Goldman - KQXS 3 miền - KQXS Hôm nay",
-  icons: "/logo.svg",
+  icons: "/GMVS_favi.svg",
   keywords: ["kqxsgm", "kqxsgoldman", "xosonhanh"]
 };
 export default function SXMBLayout({

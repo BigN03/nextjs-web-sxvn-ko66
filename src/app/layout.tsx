@@ -3,7 +3,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "GOLDMAN - KẾT QUẢ XỔ SỐ 3 MIỀN - KQXS HÔM NAY",
   description: "Goldman - KQXS 3 miền - KQXS Hôm nay",
-  icons: "/logo.svg",
+  icons: "/GMVS_favi.svg",
   keywords: ["soxovn", "soxokienthiet"]
 };
 import Comp from "@/components";
